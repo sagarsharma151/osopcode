@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Victor+Mono:wght@100&display=swap');
+body{
+    font-weight: 400;
+}
+.bg-img{
+    position: relative;
+    background-image: url("./images/inner-banner.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-img:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,.76);
+}
+
+
+.bg-para{
+    height:350px;
+    color:white;
+    background:linear-gradient(rgba(27, 27, 27, 0.225),rgba(90, 90, 164, 0.23));
+padding-top:6%;
+position: relative;
+}
+p{
+    font-size: 20px;;
+    padding:10px;
+}
+ ul li a{
+    font-size:15px;
+    text-decoration: underline;
+    color: black;
+    margin-right:30px;
+}
